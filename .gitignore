@@ -1,0 +1,12 @@
+# Ignorar node_modules
+node_modules/
+
+# Logs
+*.log
+
+# Configurações locais do VS Code
+.vscode/
+
+# Lixo do sistema operacional
+.DS_Store
+Thumbs.db
