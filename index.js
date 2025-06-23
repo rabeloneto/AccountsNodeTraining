@@ -21,7 +21,16 @@ function operation(){
     .then((anwser) => {
         const action = anwser['action'];
 
-        console.log(chalk.bgBlue.black.bold(`You chose: ${action}`))
+        if(action === 'Create Account'){
+            createAccount();
+        }
     })
     .catch((err) => console.log(err));
+}
+
+
+// create an account
+function createAccount(){
+console.log(chalk.bgGreen.black('Congratulations! Your account has been created!'));
+console.log(chalk.white('Chose yout account options below:'));
 }
